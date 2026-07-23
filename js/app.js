@@ -42,6 +42,12 @@ app.controller("dashboardcontroller", function ($scope) {
 
     };
 
+    $scope.student = {};
+
+    $scope.registerStudent = function(){
+        alert("Student registration successfull")
+    }
+
     $scope.addstudent = function () {
 
         $scope.totalStudents++;
